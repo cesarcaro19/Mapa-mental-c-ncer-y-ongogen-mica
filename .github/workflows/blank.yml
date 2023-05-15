@@ -1,0 +1,55 @@
+graph LR
+
+    style Cáncer fill:#F7CAC9,stroke:#D60000,stroke-width:2px
+    style Oncogenómica fill:#B2DFDB,stroke:#00796B,stroke-width:2px
+
+    Cáncer --> Causas
+    Cáncer --> Tipos
+    Cáncer --> Detección
+    Oncogenómica --> Oncogenes
+    Oncogenómica --> Supresores
+    Oncogenómica --> Tecnologías
+    Oncogenómica --> Objetivos
+    Oncogenómica --> Aplicaciones
+    Oncogenómica --> Avances
+    Oncogenómica --> Desafíos
+
+    style Causas fill:#FFCDD2,stroke:#D60000,stroke-width:2px
+    style Tipos fill:#FFCDD2,stroke:#D60000,stroke-width:2px
+    style Detección fill:#FFCDD2,stroke:#D60000,stroke-width:2px
+    style Oncogenes fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Supresores fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Tecnologías fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Objetivos fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Aplicaciones fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Avances fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+    style Desafíos fill:#B2EBF2,stroke:#00796B,stroke-width:2px
+
+    Causas --> Genéticas
+    Causas --> Ambientales
+    Causas --> EstiloVida
+    Tipos --> Carcinoma
+    Tipos --> Sarcoma
+    Tipos --> Leucemia
+    Tipos --> Linfoma
+    Tipos --> Melanoma
+    Detección --> Pruebas
+    Detección --> Autoexamen
+    Detección --> Biopsia
+    Oncogenes --> GenesAlterados
+    Supresores --> GenesRegulan
+    Tecnologías --> Secuenciación
+    Tecnologías --> Microarrays
+    Tecnologías --> Proteómica
+    Objetivos --> IdentificarMutaciones
+    Objetivos --> ComprenderMecanismos
+    Objetivos --> PersonalizarTratamientos
+    Aplicaciones --> DiagnósticoPreciso
+    Aplicaciones --> TerapiasDirigidas
+    Aplicaciones --> PronósticoCáncer
+    Avances --> MedicinaPrecisión
+    Avances --> Inmunoterapia
+    Avances --> TerapiaGénica
+    Desafíos --> InterpretaciónDatos
+    Desafíos --> AccesoTecnología
+    Desafíos --> ÉticaPrivacidad
